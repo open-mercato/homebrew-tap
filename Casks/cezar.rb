@@ -1,13 +1,13 @@
 cask "cezar" do
-  version "0.1.13"
+  version "0.1.14"
 
   on_arm do
-    sha256 "398c6156cc40838cc6dd1283443fcddae60f134e55d0ce19692ac01ea24cf5e5"
+    sha256 "13b2e7cc34dc50d551e4b0d11d6799cc03a6953e221c4f2d446ff56660bad83b"
 
     url "https://github.com/open-mercato/cezar/releases/download/desktop-v#{version}/cezar-macos-aarch64.dmg"
   end
   on_intel do
-    sha256 "add3f0cb5ff99392fb5e1163c96534158736d806737fd20d949a7a34ef4dd712"
+    sha256 "5adf3c5ab60c35af72742b79ad4baa825eab27f4fac80af2f6aa8fc443336099"
 
     url "https://github.com/open-mercato/cezar/releases/download/desktop-v#{version}/cezar-macos-x86_64.dmg"
   end
